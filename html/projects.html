@@ -1,0 +1,69 @@
+<DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<meta charset="UTF-8">
+<title>BELO Corps | Home</title>
+<link rel="stylesheet" href="../css/reset.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" id="brandName">BELO Corps</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+       <li class="active"><a href="projects.html">Projects<span class="sr-only">(current)</span></a></li>
+       <li><a href="forum.html">Forum</a></li>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><img src="user/assets/profilePic.jpg"></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Username <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="html/profile.html">Profile</a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#">Settings</a></li>
+            <li role="separator" class="divider"></li>
+            <li><button onclick="logout();">Logout</button></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div col-sm-9 col-md-6 style="text-align: center" class="projects"> 
+  <h1> The Tank! </h1>
+  <img src="..." alt="Tank Picture">
+  <p>This is a log of the progress we are making in the construction of our paintball tank. We are using a 1994 Ford F-150 as the base, and plan on creating  a pvc and netting cage to fit over the bed of the truck. We are going to be hand-crafting our main cannon using pvc to create a breach loading pnuematic cannon. We also plan on creating two smaller pneumatic cannons as spaldings. </p>
+  <p>If you'd like to donate to assist us in the creation of our tank, we would greatly appreciate it! Please feel free to click the button below. </p>
+  <button type="button" class="btn btn-warning" onclick="tankDonation();">Donate</button>
+</div>
+
+<div col-sm-9 col-md-6 style="text-align: center" class="projects">
+  <h1> The Mortar </h1>
+  <img src="..." alt="Mortar Picture">
+  <p>This is the log for the Mortar we are in the process of creating for the beach battle at Skirmish's ION. The basic idea is a pneumatic cannon powered by a scuba tank all situated on an off-road capable wagon.</p>
+   <p>If you'd like to donate to assist us in the creation of our Mortar System, we would greatly appreciate it! Please feel free to click the button below. </p>
+  <button type="button" class="btn btn-warning" onclick="tankDonation();">Donate</button>
+</div>
+
+</body>
+</html>
